@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/BookStore/api-automation-java-jk-tech">
+        <classes>
+            <class name="com.company.api.test.BookApiTests">
+                <methods>
+                    <include name="testGetAllBooks"/>
+                    <include name="testCreateBook"/>
+                    <include name="testGetBookById"/>
+                    <include name="testUpdateBook"/>
+                    <include name="testDeleteBook"/>
+                    <include name="testGetNonExistentBook"/>
+                </methods>
+            </class>
+            <class name="com.company.api.test.UserApiTests">
+                <methods>
+                    <include name="testCreateUser"/>
+                    <include name="testGetUser"/>
+                    <include name="testUpdateUser"/>
+                    <include name="testDeleteUser"/>
+                    <include name="testGetDeletedUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
