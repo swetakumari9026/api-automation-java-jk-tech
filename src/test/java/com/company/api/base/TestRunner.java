@@ -1,8 +1,7 @@
 package com.company.api.base;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
-import io.cucumber.testng.CucumberOptions;
-@RunWith(Cucumber.class)
+
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "src/test/java/com/company/api/stepdef",
