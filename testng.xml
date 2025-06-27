@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <listeners>
-        <listener class-name="com.company.util.ExtentReportManager"></listener>
+        <listener class-name="com.company.util.TestListener"></listener>
     </listeners>
     <test verbose="2" preserve-order="true" name="D:/BookStore/api-automation-java-jk-tech">
         <classes>
